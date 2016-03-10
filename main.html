@@ -2,108 +2,415 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-
-    <!--Using the hamburger menu display code-->
-    <!-- Bootstrap -->
+ <!-- Bootstrap -->
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/mob-menu.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mob-menu.css" />
 
-    <title>Main page</title>
+     <title>Main page</title>
 </head>
 <body>
-<header class="header-main">
-    <div id="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="row upletter head-menu-mobile visible-xs visible-sm">
-        <div class="col-xs-12 col-sm-12">
-            <div class="col-xs-3 col-sm-3">
-                <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+ <header class="header-main">
+    <nav id="bt-menu" class="bt-menu visible-xs visible-sm upletter">
+        <a href="#" class="bt-menu-trigger"><span>Меню</span></a>
+        <ul>
+            <h1>menu</h1>
+            <li><a href="main.html">home</a></li>
+            <li><a href="api.html">api</a></li>
+            <li><a href="interactive.html">interactive</a></li>
+            <li><a href="doc.html">docs</a></li>
+            <li><a href="pricing.html">plans</a></li>
+            <li><a href="sigin.html">signup</a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+    </nav>
+
+     <div class="row upletter head-menu-mobile visible-xs visible-sm">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="col-xs-3 col-sm-3">
+                        <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+                    </div>
+                    <div class="col-xs-6 col-sm-6 logo-mobile">
+                        <a href="#" class="logo">
+                            <img src="images/logo.png" class="img-logo-mobile" alt="">
+                            <span>apixu</span>
+                            </a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 search">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-sm-6 logo-mobile">
-                <a href="#" class="logo">
-                    <img src="images/logo.png" class="img-logo-mobile" alt="">
-                    <span>apixu</span>
-                </a>
-            </div>
-            <div class="col-xs-3 col-sm-3 search">
-                <span class="glyphicon glyphicon-search"></span>
-            </div>
-        </div>
-    </div>
 
-    <div id="grad">
-        <div class="cont">
-            <div class="weather-bar">
-                <div class="row upletter navigation">
-                    <div class="col-xs-3 col-sm-3 col-md-2 col-lg-1 nav-element city-block">
-                        <div class="nav-wrapper">
-                            <span class="glyphicon glyphicon-map-marker"></span>
-                            <span class="city">minsk</span>
+     <div id="grad">
+            <div class="cont">
+                <div class="weather-bar">
+                    <div class="row upletter navigation">
+                        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-1 nav-element city-block">
+                            <div class="nav-wrapper">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                <span class="city">minsk</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-1 col-lg-2 temperature-block nav-element">
+                            <div class="nav-wrapper">
+                                <img src="images/cloud1.png" alt="">
+                                <span>-18<b>&deg;</b>C</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 nav-element date-block">
+                            <div class="nav-wrapper">
+                                <span>saturday, 25th of october</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 nav-element weather-block visible-xs visible-sm">
+                            <div class="nav-wrapper">
+                                <img src="images/cloud2.png" alt="">
+                                <span>28 sat</span>
+                                <img src="images/cloud2.png" alt="">
+                                <span>29 sun</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 nav-element search-block">
+                            <div class="nav-wrapper">
+                                <span class="glyphicon glyphicon-search"></span>
+                                <form action="#">
+                                    <input type="search"/>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 nav-element weather-block hidden-xs hidden-sm weather-block-desktop">
+                            <div class="nav-wrapper">
+                                <img src="images/cloud2.png" alt="">
+                                <span>28 sat</span>
+                                <img src="images/cloud2.png" alt="">
+                                <span>29 sun</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-1 col-lg-2 temperature-block nav-element">
-                        <div class="nav-wrapper">
-                            <img src="images/cloud1.png" alt="">
-                            <span>-18<b>&deg;</b>C</span>
+
+                    <hr class="hidden-xs hidden-sm">
+                </div>
+
+                <div class="head-menu">
+                    <div class="row upletter hidden-xs hidden-sm  navigation">
+                        <div class="col-md-3 no-center nav-element">
+                            <div class="nav-wrapper">
+                                <a href="#" class="logo">
+                                    <img src="images/logo.png" class="img-logo" alt="">
+                                    <span class="text-logo">apixu</span>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 nav-element date-block">
-                        <div class="nav-wrapper">
-                            <span>saturday, 25th of october</span>
+                        <div class="col-md-7 font-menu menu-head nav-element">
+                            <div class="nav-wrapper">
+                                <div class="col-md-2"><a href="main.html">home</a></div>
+                                <div class="col-md-2"><a href="api.html">api</a></div>
+                                <div class="col-md-4"><a href="interactive.html">interactive</a></div>
+                                <div class="col-md-2"><a href="doc.html">docs</a></div>
+                                <div class="col-md-2"><a href="pricing.html">plans</a></div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 nav-element weather-block visible-xs visible-sm">
-                        <div class="nav-wrapper">
-                            <img src="images/cloud2.png" alt="">
-                            <span>28 sat</span>
-                            <img src="images/cloud2.png" alt="">
-                            <span>29 sun</span>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 nav-element search-block">
-                        <div class="nav-wrapper">
-                            <span class="glyphicon glyphicon-search"></span>
-
-                            <form action="#">
-                                <input type="search"/>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-3 nav-element weather-block hidden-xs hidden-sm weather-block-desktop">
-                        <div class="nav-wrapper">
-                            <img src="images/cloud2.png" alt="">
-                            <span>28 sat</span>
-                            <img src="images/cloud2.png" alt="">
-                            <span>29 sun</span>
+                        <div class="col-md-2 col-lg-2 font-menu menu-head nav-element">
+                            <div class="nav-wrapper">
+                                <div class="col-md-7"><a href="sigin.html">signup</a></div>
+                                <div class="col-md-5 log"><a href="login.html">login</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <hr class="hidden-xs hidden-sm">
+                <div class="head-info">
+                    <h1 class="upletter">fast, simple, affordable and fully managed</h1>
+                    <h2>JSON Weather API and Geo Developer API</h2>
+                    <button type="button" class="btn btn-default but-head btn-pricing">Pricing</button>
+                    <button type="button" class="btn btn-default but-head">Signup</button>
+                </div>
+
+            </div>
+        </div>
+ </header>
+
+ <div class="what-apixu-block">
+        <div class="cont">
+            <h1>What it is Apixu?</h1>
+            <h2>Apixu provides a complete Weather API solution which:</h2>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="col-md-3">
+                            <img src="images/free.png" alt="">
+                        </div>
+                        <div class="col-md-9">Free</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-3">
+                            <img src="images/scalable.png" alt=""></div>
+                        <div class="col-md-9">Scalable and fully  user managed</div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="col-md-3">
+                            <img src="images/fast.png" alt="">
+                        </div>
+                        <div class="col-md-9">Fast</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-3">
+                            <img src="images/individ.png" alt="">
+                        </div>
+                        <div class="col-md-9">Individuals in  JSON format.</div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="col-md-3">
+                            <img src="images/simple.png" alt=""></div>
+                        <div class="col-md-9">Simple to use</div>
+                    </div>
+                </div>
             </div>
 
-            <div class="head-menu">
+            <span>Our FREE weather API provides you with the data needed  to have real-time weather for your website or application.</span>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+ <div class="how-work-block">
+        <div class="cont">
+            <h1>How does it work?</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img src="images/real-time.png" alt="">
+                        <h3>Real-time Weather API</h3>
+                        <h4>City real time weather</h4>
+                        <p>Real-time or current JSON weather API provides access to near real-time weather information for millions of locations worldwide.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img2" src="images/10day.png" alt="">
+                        <h3>10 Day Weather API</h3>
+                        <h4>Hourly weather forecast</h4>
+                        <p>10 day, hour by hour detailed weather forecast for millions of cities and towns around the world in JSON format.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img3" src="images/extras.png" alt="">
+                        <h3>Extras</h3>
+                        <h4>Timezone, astronomy  and Geo data</h4>
+                        <p>Time zone, Astronomy  and Geo API</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img src="images/start.png" alt="">
+                        <h3>Start Free,  Upgrade Later</h3>
+                        <h4>All data priced by API calls</h4>
+                        <p>Signup for free weather API and then upgrade at anytime. We charge ONLY for API calls per month.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img5" src="images/99.png" alt="">
+                        <h3>99.99% uptime</h3>
+                        <h4>Fully managed and scalable</h4>
+                        <p>We manage the infrastructure, hardware and network. While you simply enjoy the data and leave rest on us.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img6" src="images/json.png" alt="">
+                        <h3>JSON</h3>
+                        <h4>JSON</h4>
+                        <p>All data in lightweight, simple and easy JSON format.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default but-learn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+ <div class="pricing-block">
+        <div class="cont">
+            <h1>Pricing</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="upletter free">free</div>
+                        <p class="coast">$0.00</p>
+                        <span>per month</span>
+                        <hr>
+                        <p>API Calls Per Month</p>
+                        <p class="coast">5,000</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="upletter silver">silver</div>
+                        <p class="coast">$6.95</p>
+                        <span>per month</span>
+                        <hr>
+                        <p>API Calls Per Month</p>
+                        <p class="coast">50,000</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="upletter gold">gold</div>
+                        <p class="coast">$49.95</p>
+                        <span>per month</span>
+                        <hr>
+                        <p>API Calls Per Month</p>
+                        <p class="coast">300,000</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="upletter platinum">platinum</div>
+                        <p class="coast">$199.95</p>
+                        <span>per month</span>
+                        <hr>
+                        <p>API Calls Per Month</p>
+                        <p class="coast">1 Million</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-default get-start fr">Get Started</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-default get-start sl">Get Started</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-default get-start gl">Get Started</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-default get-start pl">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+ <footer class="footer-main">
+        <div class="cont">
+            <div class="libraries-block">
+                <h1>API Libraries</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/sharp.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang">C# Library</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/perl.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-perl">PERL Library</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/php.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-php">PHP Library</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/node.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-node">NodeJS Library</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/java.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-java">Java Library</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/ruby.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang"  id="lang-ruby">Ruby Library</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/android.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-andr">Android Library</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 nav-element">
+                            <div class="col-md-3">
+                                <img src="images/pyton.png" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="offic">Official</p>
+                                <p class="prog-lang" id="lang-pyth">Python Library</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hidden-xs hidden-sm">
+
+            <div class="foot-menu">
                 <div class="row upletter hidden-xs hidden-sm  navigation">
                     <div class="col-md-3 no-center nav-element">
                         <div class="nav-wrapper">
@@ -113,7 +420,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-7 font-menu menu-head nav-element">
+                    <div class="col-md-7 font-menu menu-foot nav-element">
                         <div class="nav-wrapper">
                             <div class="col-md-2"><a href="main.html">home</a></div>
                             <div class="col-md-2"><a href="api.html">api</a></div>
@@ -122,380 +429,31 @@
                             <div class="col-md-2"><a href="pricing.html">plans</a></div>
                         </div>
                     </div>
-                    <div class="col-md-2 col-lg-2 font-menu menu-head nav-element">
+                    <div class="col-md-2 col-lg-2 font-menu menu-foot nav-element">
                         <div class="nav-wrapper">
                             <div class="col-md-7"><a href="sigin.html">signup</a></div>
-                            <div class="col-md-5 log"><a href="login.html">login</a></div>
+                            <div class="col-md-5"><a href="login.html">login</a></div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="head-info">
-                <h1 class="upletter">fast, simple, affordable and fully managed</h1>
-
-                <h2>JSON Weather API and Geo Developer API</h2>
-                <button type="button" class="btn btn-default but-head btn-pricing">Pricing</button>
-                <button type="button" class="btn btn-default but-head">Signup</button>
-            </div>
-
-        </div>
-    </div>
-</header>
-<nav id="bt-menu" class="bt-menu visible-xs visible-sm upletter">
-    <a href="#" class="bt-menu-trigger"><span>Меню</span></a>
-    <ul>
-        <h1>menu</h1>
-        <li><a href="main.html">home</a></li>
-        <li><a href="api.html">api</a></li>
-        <li><a href="interactive.html">interactive</a></li>
-        <li><a href="doc.html">docs</a></li>
-        <li><a href="pricing.html">plans</a></li>
-        <li><a href="sigin.html">signup</a></li>
-        <li><a href="login.html">login</a></li>
-    </ul>
-</nav>
-<div class="what-apixu-block">
-    <div class="cont">
-        <h1>What it is Apixu?</h1>
-
-        <h2>Apixu provides a complete Weather API solution which:</h2>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-6">
-                    <div class="col-md-3">
-                        <img src="images/free.png" alt="">
-                    </div>
-                    <div class="col-md-9">Free</div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-md-3">
-                        <img src="images/scalable.png" alt=""></div>
-                    <div class="col-md-9">Scalable and fully user managed</div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-6">
-                    <div class="col-md-3">
-                        <img src="images/fast.png" alt="">
-                    </div>
-                    <div class="col-md-9">Fast</div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-md-3">
-                        <img src="images/individ.png" alt="">
-                    </div>
-                    <div class="col-md-9">Individuals in JSON format.</div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-6">
-                    <div class="col-md-3">
-                        <img src="images/simple.png" alt=""></div>
-                    <div class="col-md-9">Simple to use</div>
-                </div>
+                 </div>
             </div>
         </div>
-
-        <span>Our FREE weather API provides you with the data needed  to have real-time weather for your website or application.</span>
-    </div>
-</div>
-<div class="clearfix"></div>
-
-<div class="how-work-block">
-    <div class="cont">
-        <h1>How does it work?</h1>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-4">
-                    <img src="images/real-time.png" alt="">
-
-                    <h3>Real-time Weather API</h3>
-                    <h4>City real time weather</h4>
-
-                    <p>Real-time or current JSON weather API provides access to near real-time weather information for
-                        millions of locations worldwide.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img2" src="images/10day.png" alt="">
-
-                    <h3>10 Day Weather API</h3>
-                    <h4>Hourly weather forecast</h4>
-
-                    <p>10 day, hour by hour detailed weather forecast for millions of cities and towns around the world
-                        in JSON format.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img3" src="images/extras.png" alt="">
-
-                    <h3>Extras</h3>
-                    <h4>Timezone, astronomy and Geo data</h4>
-
-                    <p>Time zone, Astronomy and Geo API</p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-4">
-                    <img src="images/start.png" alt="">
-
-                    <h3>Start Free, Upgrade Later</h3>
-                    <h4>All data priced by API calls</h4>
-
-                    <p>Signup for free weather API and then upgrade at anytime. We charge ONLY for API calls per
-                        month.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img5" src="images/99.png" alt="">
-
-                    <h3>99.99% uptime</h3>
-                    <h4>Fully managed and scalable</h4>
-
-                    <p>We manage the infrastructure, hardware and network. While you simply enjoy the data and leave
-                        rest on us.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img6" src="images/json.png" alt="">
-
-                    <h3>JSON</h3>
-                    <h4>JSON</h4>
-
-                    <p>All data in lightweight, simple and easy JSON format.</p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-default but-learn">Learn More</button>
-                </div>
+        <div class="row upletter foot-menu-mobile visible-xs visible-sm">
+            <div class="col-xs-12 col-sm-12">
+                <div class="col-xs-3 col-sm-2"><a href="main.html">home</a></div>
+                <div class="col-xs-2 col-sm-1"><a href="api.html">api</a></div>
+                <div class="col-xs-7 col-sm-3"><a href="interactive.html">interactive</a></div>
+                <div class="col-xs-3 col-sm-2"><a href="doc.html">docs</a></div>
+                <div class="col-xs-3 col-sm-2"><a href="pricing.html">plans</a></div>
+                <div class="col-xs-3 col-sm-3"><a href="sigin.html">signup</a></div>
+                <div class="col-xs-3 col-sm-2"><a href="login.html">login</a></div>
             </div>
         </div>
-    </div>
-</div>
-<div class="clearfix"></div>
-
-<div class="pricing-block">
-    <div class="cont">
-        <h1>Pricing</h1>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-3">
-                    <div class="upletter free">free</div>
-                    <p class="coast">$0.00</p>
-                    <span>per month</span>
-                    <hr>
-                    <p>API Calls Per Month</p>
-
-                    <p class="coast">5,000</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="upletter silver">silver</div>
-                    <p class="coast">$6.95</p>
-                    <span>per month</span>
-                    <hr>
-                    <p>API Calls Per Month</p>
-
-                    <p class="coast">50,000</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="upletter gold">gold</div>
-                    <p class="coast">$49.95</p>
-                    <span>per month</span>
-                    <hr>
-                    <p>API Calls Per Month</p>
-
-                    <p class="coast">300,000</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="upletter platinum">platinum</div>
-                    <p class="coast">$199.95</p>
-                    <span>per month</span>
-                    <hr>
-                    <p>API Calls Per Month</p>
-
-                    <p class="coast">1 Million</p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-default get-start fr">Get Started</button>
-                </div>
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-default get-start sl">Get Started</button>
-                </div>
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-default get-start gl">Get Started</button>
-                </div>
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-default get-start pl">Get Started</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="clearfix"></div>
-
-<footer class="footer-main">
-    <div class="cont">
-        <div class="libraries-block">
-            <h1>API Libraries</h1>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/sharp.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang">C# Library</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/perl.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-perl">PERL Library</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/php.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-php">PHP Library</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/node.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-node">NodeJS Library</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/java.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-java">Java Library</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/ruby.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-ruby">Ruby Library</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/android.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-andr">Android Library</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 nav-element">
-                        <div class="col-md-3">
-                            <img src="images/pyton.png" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="offic">Official</p>
-
-                            <p class="prog-lang" id="lang-pyth">Python Library</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <hr class="hidden-xs hidden-sm">
-
-        <div class="foot-menu">
-            <div class="row upletter hidden-xs hidden-sm  navigation">
-                <div class="col-md-3 no-center nav-element">
-                    <div class="nav-wrapper">
-                        <a href="#" class="logo">
-                            <img src="images/logo.png" class="img-logo" alt="">
-                            <span class="text-logo">apixu</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-7 font-menu menu-foot nav-element">
-                    <div class="nav-wrapper">
-                        <div class="col-md-2"><a href="main.html">home</a></div>
-                        <div class="col-md-2"><a href="api.html">api</a></div>
-                        <div class="col-md-4"><a href="interactive.html">interactive</a></div>
-                        <div class="col-md-2"><a href="doc.html">docs</a></div>
-                        <div class="col-md-2"><a href="pricing.html">plans</a></div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 font-menu menu-foot nav-element">
-                    <div class="nav-wrapper">
-                        <div class="col-md-7"><a href="sigin.html">signup</a></div>
-                        <div class="col-md-5"><a href="login.html">login</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row upletter foot-menu-mobile visible-xs visible-sm">
-        <div class="col-xs-12 col-sm-12">
-            <div class="col-xs-3 col-sm-2"><a href="main.html">home</a></div>
-            <div class="col-xs-2 col-sm-1"><a href="api.html">api</a></div>
-            <div class="col-xs-7 col-sm-3"><a href="interactive.html">interactive</a></div>
-            <div class="col-xs-3 col-sm-2"><a href="doc.html">docs</a></div>
-            <div class="col-xs-3 col-sm-2"><a href="pricing.html">plans</a></div>
-            <div class="col-xs-3 col-sm-3"><a href="sigin.html">signup</a></div>
-            <div class="col-xs-3 col-sm-2"><a href="login.html">login</a></div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
 <script src="js/classie.js"></script>
 <script src="js/borderMenu.js"></script>
 
