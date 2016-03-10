@@ -1,0 +1,889 @@
+.cont {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.api-content-block .cont,
+.pricing-content-block .cont,
+.interactive-content-block .cont,
+.docs-content-block .cont {
+    text-align: inherit;
+}
+
+.pricing-content-block .cont .pricing-block {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.header-main,
+.header-autor {
+    display: block;
+    max-width: 100%;
+    min-height: 775px;
+    background: url("../images/fon.jpg") no-repeat;
+    background-size: cover;
+}
+
+.weather-bar > .navigation {
+    line-height: 25px;
+}
+
+.weather-bar > .navigation > .nav-element {
+    min-height: 30px;
+    position: relative;
+}
+
+.weather-bar > .navigation > .nav-element .nav-wrapper,
+.head-menu > .navigation > .nav-element .nav-wrapper,
+.foot-menu > .navigation > .nav-element .nav-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+
+.head-menu > .navigation {
+    line-height: 45px;
+}
+
+.head-menu > .navigation > .nav-element {
+    min-height: 45px;
+    position: relative;
+}
+
+.foot-menu > .navigation {
+    line-height: 45px;
+}
+
+.foot-menu > .navigation > .nav-element {
+    min-height: 45px;
+    position: relative;
+}
+
+.foot-menu {
+    padding-bottom: 1%;
+}
+
+/*.libraries-block > .navigation {*/
+/*line-height: 25px;*/
+/*}*/
+
+.libraries-block .nav-element {
+    line-height: 25px;
+    margin-bottom: 6%;
+}
+
+.libraries-block .nav-element p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.navigation > .nav-element.city-block .city {
+    border-bottom: 1px dashed #333;
+}
+
+.navigation > .nav-element.city-block .city,
+.navigation > .nav-element.temperature-block {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navigation > .nav-element.city-block .glyphicon {
+    font-size: 14px;
+}
+
+.navigation > .nav-element.temperature-block > img {
+    display: inline-block;
+}
+
+.navigation > .nav-element.temperature-block > span {
+    padding-left: 21px;
+    font-size: 21px;
+}
+
+.navigation > .nav-element.date-block {
+    font-size: 13px;
+    font-weight: 900;
+    color: rgba(51, 51, 51, 0.67);
+}
+
+.navigation > .nav-element.temperature-block > .nav-wrapper,
+.navigation > .nav-element.city-block > .nav-wrapper,
+.navigation > .nav-element.weather-block > .nav-wrapper,
+.navigation > .nav-element.date-block > .nav-wrapper {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation > .nav-element.weather-block.weather-block-desktop > .nav-wrapper {
+    left: inherit;
+    right: 15px;
+}
+
+/*.navigation > .nav-element.date-block > .nav-wrapper > span {*/
+/*margin-bottom: 10px;*/
+/*}*/
+
+.navigation > .nav-element.search-block > .nav-wrapper {
+    margin-bottom: 3px;
+    width: calc(100% - 30px);
+}
+
+.navigation > .nav-element.search-block form {
+    display: inline-block;
+}
+
+.navigation > .nav-element.search-block input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.67);
+    height: 28px;
+    background: transparent;
+}
+
+.navigation > .nav-element.search-block form,
+.navigation > .nav-element.search-block input {
+    width: 100%;
+}
+
+.navigation > .nav-element.search-block span {
+    position: absolute;
+    color: rgba(51, 51, 51, 0.67);
+    font-size: 23px;
+    top: 4px;
+    left: -24px;
+}
+
+/*.weather-bar hr {*/
+/*border-top: 1px solid rgba(119, 119, 119, 0.19);*/
+/*}*/
+
+.weather-block {
+    font-size: 12px;
+    font-weight: 900;
+    color: rgba(51, 51, 51, 0.67);
+}
+
+.font-menu {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-foot a, .menu-head a {
+    color: #555;
+}
+
+.menu-head a:hover {
+    color: #000;
+    border-top: 1px solid #000;
+    padding-top: 3px;
+}
+
+.menu-foot a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+.menu-head a:active {
+    color: #000;
+    border-top: 1px solid #000;
+    padding-top: 3px;
+}
+
+.menu-foot a:active {
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+.img-logo {
+    max-width: 22%;
+}
+
+.text-logo {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.head-info {
+    margin-top: 15%;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.head-info > h1 {
+    margin-bottom: 2%;
+}
+
+.head-info > h2 {
+    font-weight: 100;
+    margin-bottom: 4%;
+}
+
+.but-head {
+    border-radius: 8px;
+    color: #333;
+    background-color: transparent;
+    border-color: orange;
+    width: 192px;
+    height: 54px;
+    font-size: 30px;
+}
+
+.no-center {
+    text-align: initial;
+}
+
+.upletter {
+    text-transform: uppercase;
+}
+
+.what-apixu-block {
+    max-width: 100%;
+    height: auto;
+    padding: 5% 0;
+}
+
+.what-apixu-block h1 {
+    font-size: 47px;
+    margin-bottom: 6%;
+}
+
+.what-apixu-block h2 {
+    font-size: 34px;
+}
+
+.what-apixu-block .row {
+    text-align: initial;
+    font-size: 30px;
+}
+
+.what-apixu-block .row {
+    padding: 6% 13%;
+}
+
+.what-apixu-block span {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.how-work-block {
+    /*height: auto;*/
+    /*background-size: 100% auto;*/
+    background: url("../images/fon2.jpg") no-repeat center center fixed;
+    padding: 3% 0 0;
+}
+
+.how-work-block h1 {
+    margin-bottom: 6%;
+}
+
+.how-work-block h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.how-work-block h4 {
+    font-size: 28px;
+    font-weight: 100;
+    padding: 2% 0;
+}
+
+.how-work-block p {
+    font-size: 19px;
+    line-height: 34px;
+    color: #333;
+    width: 76%;
+    margin: auto;
+    margin-bottom: 0 !important;
+}
+
+.how-work-block button {
+    margin-bottom: 25%;
+    margin-top: 4% !important;
+}
+
+.how-work-block .img2 {
+    height: 125px;
+}
+
+.how-work-block .img3 {
+    padding: 11px 0;
+}
+
+.how-work-block .img5 {
+    padding-top: 20px;
+}
+
+.how-work-block .img6 {
+    padding-top: 3px;
+}
+
+.but-learn, .get-start, .get-start-api {
+    border-radius: 11px;
+    color: #333;
+    background-color: transparent;
+    border-color: orange;
+    width: 175px;
+    height: 46px;
+    font-size: 22px;
+}
+
+.pricing-block {
+    padding: 3% 0 5%;
+}
+
+.pricing-block h1 {
+    margin-bottom: 6%;
+}
+
+.block-coast {
+    width: 249px;
+    padding: 10px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 11px;
+}
+
+.pricing-block div.free, div.silver, div.gold, div.platinum {
+    width: 249px;
+    padding: 10px;
+    color: white;
+    font-size: 45px;
+    margin: auto;
+    margin-bottom: 11px !important;
+}
+
+.plan-details .free,
+.plan-details .silver,
+.plan-details .gold,
+.plan-details .platinum {
+    width: 100px;
+    padding: 4px;
+    font-size: 26px;
+    color: white;
+    margin: auto;
+    margin-bottom: 11px !important;
+    text-align: center;
+}
+
+.free {
+    background-color: #9DC274;
+}
+
+.silver {
+    background-color: #518BBD;
+}
+
+.gold {
+    background-color: #FFC000;
+}
+
+.platinum {
+    background-color: #FE9516;
+}
+
+.coast {
+    font-size: 54px;
+}
+
+.pricing-block .get-start {
+    width: 233px;
+    font-size: 29px;
+    height: 50px;
+}
+
+.pricing-block .get-start.fr:hover {
+    background-color: #9DC274;
+    border-color: #9DC274;
+}
+
+.pricing-block .get-start.sl:hover {
+    background-color: #518BBD;
+    border-color: #518BBD;
+}
+
+.pricing-block .get-start.gl:hover {
+    background-color: #FFC000;
+    border-color: #FFC000;
+}
+
+.pricing-block .get-start.pl:hover {
+    background-color: #FE9516;
+    border-color: #FE9516;
+}
+
+.pricing-block span {
+    font-size: 25px;
+}
+
+.pricing-block hr {
+    width: 185px;
+}
+
+.footer-main {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background: url("../images/fon3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.libraries-block {
+    /*width: 744px;*/
+    width: 60%;
+    margin: auto;
+    padding: 3% 0 5%;
+}
+
+.libraries-block h1 {
+    margin-bottom: 14.5%;
+    font-size: 49px;
+}
+
+.libraries-block .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.offic {
+    font-size: 25px;
+}
+
+.prog-lang {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+#lang-perl {
+    font-size: 25px;
+}
+
+#lang-php {
+    font-size: 27px;
+}
+
+#lang-node {
+    font-size: 21px;
+}
+
+#lang-java {
+    font-size: 27px;
+}
+
+#lang-ruby {
+    font-size: 25px;
+}
+
+#lang-andr {
+    font-size: 21px;
+}
+
+#lang-pyth {
+    font-size: 23px;
+}
+
+#grad {
+    min-height: 775px;
+    padding-top: 20px;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.9)); /* Standard syntax (must be last) */
+}
+
+#gradient {
+    padding-top: 20px;
+    margin-bottom: 5%;
+    background: -webkit-linear-gradient(top, rgba(0, 113, 209, 0.53), rgba(255, 255, 255, 0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0, 113, 209, 0.53), rgba(255, 255, 255, 0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0, 113, 209, 0.53), rgba(255, 255, 255, 0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(0, 113, 209, 0.53), rgba(255, 255, 255, 0.9));
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
+.head-menu-mobile {
+    background-color: #fff;
+    padding: 1% 0;
+}
+
+.foot-menu-mobile {
+    background-color: #353535;
+    padding: 3% 0;
+}
+
+.head-menu-mobile .glyphicon-search {
+    float: right;
+    font-size: 23px;
+}
+
+.head-menu-mobile {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head-menu-mobile .img-logo-mobile {
+    max-width: 10%;
+}
+
+.head-menu-mobile .logo-mobile {
+    text-align: center;
+}
+
+.btn-pricing {
+    margin-right: 3%;
+}
+
+.foot-menu-mobile a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.foot-menu-mobile > .col-xs-12 > div {
+    border-right: 3px solid #fff;
+    padding-right: 3px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.foot-menu-mobile a:active {
+    border-top: 1px solid #fff;
+    padding-top: 3px;
+}
+
+.foot-menu-mobile a:hover {
+    border-top: 1px solid #fff;
+    padding-top: 3px;
+}
+
+.foot-menu-mobile a:active,
+.foot-menu-mobile a:hover,
+.foot-menu-mobile a:focus,
+.menu-head a:hover,
+.menu-foot a:hover,
+.menu-head a:active,
+.menu-foot a:active {
+    text-decoration: none;
+}
+
+header > .row,
+footer > .row {
+    width: 100%;
+    margin: 0;
+}
+
+.api-content-block .get-start-api {
+    width: 300px;
+    font-size: 20px;
+    height: 40px;
+}
+
+.pricing-content-block .ps-text {
+    width: 100%;
+    background-color: rgb(123, 182, 231);
+    padding: 1%;
+}
+
+.pricing-content-block .ps-text > span {
+    padding-left: 15px;
+}
+
+.logo {
+    color: #333;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.plan-details > div > div > div {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid rgba(119, 119, 119, 0.19);
+}
+
+.login-content-block,
+.sigin-content-block {
+    width: 36%;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 5% 7%;
+    margin-left: 30%;
+    margin-top: 54px;
+}
+
+.sigin-content-block h1,
+.login-content-block h1 {
+    font-size: 47px;
+    margin: 23px 0 17px 19px;
+}
+
+.sigin-content-block span.text,
+.login-content-block span.text {
+    font-size: 25px;
+}
+
+.sigin-content-block form,
+.login-content-block form {
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+.sigin-content-block form .form-group,
+.login-content-block form .form-group {
+    text-align: initial;
+    font-size: 18px;
+}
+
+.sigin-content-block .form-control,
+.login-content-block .form-control {
+    border-radius: 9px;
+    border: 1px solid orange;
+    width: 99%;
+}
+
+.sigin-content-block button,
+.login-content-block button {
+    margin-top: 13px;
+    border-radius: 9px;
+    width: 97%;
+    font-size: 18px;
+    color: white;
+    padding: 4px 11px 3px 0;
+}
+
+.sigin-content-block .or,
+.login-content-block .or {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sigin-content-block .btn-sigin,
+.login-content-block .btn-login {
+    background-color: orange;
+    border-color: orange;
+}
+
+.sigin-content-block .btn-fb,
+.login-content-block .btn-fb {
+    background-color: #354D89;
+    border-color: #354D89;
+}
+
+.sigin-content-block .btn-gl,
+.login-content-block .btn-gl {
+    background-color: #CD3333;
+    border-color: #CD3333;
+}
+
+.sigin-content-block .btn-gh,
+.login-content-block .btn-gh {
+    background-color: #303030;
+    border-color: #303030;
+}
+
+.head-menu-mobile .search {
+    margin-top: 1%;
+}
+
+/*----------sbar-menu--------------*/
+
+.sbar-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sbar-menu ul li {
+    list-style-type: none;
+    margin: 0 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid RGBA(51, 51, 51, 0.71);
+    border-left: 1px solid RGBA(34, 34, 34, 0.41);
+    padding: 3px 0 3px 10px;
+}
+
+.sbar-menu ul a {
+    color: #333;
+    width: 100%;
+}
+
+.sbar-menu ul i {
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+li.active,
+.sbar-menu li:hover,
+.sbar-menu ul a:hover {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.docs-content-block {
+    margin-bottom: 50px;
+}
+
+.docs-content-block h1 {
+    margin: 0;
+}
+
+/*----------navigation tabs-----------*/
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs > li > a {
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-tabs > li.active {
+    color: orange;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-bottom: 2px solid orange;
+    color: orange;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    border-bottom: 2px solid orange;
+    color: orange;
+    cursor: pointer;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nav {
+    margin-bottom: 45px;
+}
+
+/*----------navigation tabs-----------*/
+
+.api-content-block .row img {
+    float: left;
+    margin: 0 5px;
+}
+
+.api-content-block .row button {
+    float: right;
+    /*margin: 0px 5px;*/
+}
+
+.price #gradient {
+    margin-bottom: 2.4%;
+}
+
+.pricing-content-block h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.pricing-content-block .tab-content h2 {
+    font-size: 40px;
+}
+
+.pricing-content-block .tab-content span.text {
+    font-size: 30px;
+    display: block;
+    margin: 38px 0 13px;
+}
+
+.pricing-content-block .pricing-block p {
+    margin: 0 0;
+    font-size: 18px;
+}
+
+.pricing-content-block .pricing-block p.coast {
+    margin: 0 0;
+    font-size: 54px;
+}
+
+.pricing-content-block .pricing-block span {
+    font-size: 25px;
+    display: block;
+    margin-top: -10px;
+}
+
+.pricing-content-block .pricing-block hr {
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+
+.pricing-content-block .pricing-block .btn-block {
+    margin-top: 12px;
+}
+
+.pricing-content-block .pricing-block {
+    padding: 3% 0 4.3%;
+}
+
+.pricing-content-block h3 {
+    font-size: 36px;
+    color: #6D95C6;
+}
+
+.pricing-content-block .plan-details {
+    margin-top: 50px;
+}
+
+.pricing-content-block .plan-details span {
+    font-size: 26px;
+    display: block;
+    padding: 8px 15px;
+}
+
+.pricing-content-block .plan-details {
+    /*font-size: 26px;*/
+    /*display: block;*/
+    /*padding: 8px 15px;*/
+}
