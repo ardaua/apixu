@@ -135,10 +135,6 @@ h4 {
     right: 15px;
 }
 
-/*.navigation > .nav-element.date-block > .nav-wrapper > span {*/
-/*margin-bottom: 10px;*/
-/*}*/
-
 .navigation > .nav-element.search-block > .nav-wrapper {
     margin-bottom: 3px;
     width: calc(100% - 30px);
@@ -169,10 +165,6 @@ h4 {
     top: 4px;
     left: -24px;
 }
-
-/*.weather-bar hr {*/
-/*border-top: 1px solid rgba(119, 119, 119, 0.19);*/
-/*}*/
 
 .weather-block {
     font-size: 12px;
@@ -359,7 +351,7 @@ h1, h2 {
 }
 
 .how-work-block button {
-    margin-bottom: 25%;
+    margin-bottom: 25% !important;
     margin-top: 4% !important;
 }
 
@@ -1316,4 +1308,22 @@ font-weight: 700;
 
 .docs-content-block .row ol {
     padding-left: 16px;
+}
+
+/*---------------------mobile-------------------*/
+
+@media (max-width: 767px) {
+
+    .how-work-block .cont .correct
+    {
+        margin: auto;
+    }
+}
+
+@media (max-width: 991px){
+
+    .how-work-block .cont .correct
+    {
+        margin: auto;
+    }
 }
