@@ -146,17 +146,17 @@
 <div class="docs-content-block">
     <div class="cont">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="sbar-menu">
                     <ul>
                         <li><a href="doc.html"><i class="fa fa-flag fa-1x"></i>Introduction</a></li>
                         <li><a href="doc2.html"><i class="fa fa-flag-checkered fa-1x"></i>Getting Started</a></li>
-                        <li><a href="doc3.html"><i class="fa fa-lightbulb-o fa-1x""></i>Authentication</a></li>
+                        <li><a href="doc3.html"><i class="fa fa-lightbulb-o fa-1x"></i>Authentication</a></li>
                         <li><a href="doc4.html"><i class="fa fa-sitemap fa-1x"></i>Request</a></li>
                         <li><a href="doc5.html"><i class="fa fa-tint fa-1x"></i>Current</a></li>
                         <li class="active"><a href="doc6.html"><i class="fa fa-cloud fa-1x"></i>Forecast</a></li>
                         <li><a href="doc7.html"><i class="fa fa-search fa-1x"></i>Search</a></li>
-                        <li><a href="doc8.html"><i class="fa fa-object-group fa-1x"></i></span>Location Object</a></li>
+                        <li><a href="doc8.html"><i class="fa fa-object-group fa-1x"></i>Location Object</a></li>
                         <li><a href="doc9.html"><i class="fa fa-times fa-1x"></i>Errors</a></li>
                         <li><a href="doc10.html"><i class="fa fa-file fa-1x"></i>Examples</a></li>
                         <li><a href="doc11.html"><i class="fa fa-book fa-1x"></i>Code Libraries</a></li>
@@ -164,29 +164,29 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-1"></div>
+
             <div class="col-md-9">
                 <h1>Forecast Weather</h1>
                 <hr>
                 <p>Forecast weather API method returns upto next 10 day weather forecast as
-                    json. The data is returned as a Forecast Object.</p>
+                    json. The data is returned as a Forecast Object.</p><br>
 
                 <p>Forecast object contains astronomy data, day weather forecast and hourly
-                    interval weather information for a given city.</p>
+                    interval weather information for a given city.</p><br>
 
-                <p>forecastday: Parent element</p>
+                <p>forecastday: Parent element</p><br>
 
                 <p>forecastday -> day: 'day' element inside forecastday contains max/min
-                    temperature, average temperature</p>
+                    temperature, average temperature</p><br>
 
                 <p>forecastday -> astro<br>
-                forecastday -> hour:</p>
+                forecastday -> hour:</p><br>
 
                 <div class="table-responsive">
                     <table class="table table-bordered">
                         <tr>
-                            <th>Field</th>
-                            <th>Data Type</th>
+                            <th>Forecastday</th>
+                            <th>Parent element</th>
                         </tr>
                         <tr>
                             <td>forecastday -> day</td>
@@ -242,7 +242,7 @@
                             <td>See hour element</td>
                         </tr>
                     </table>
-                    <h2>day Element</h2>
+                    <h2 class="correct">day Element</h2>
                     <table class="table table-bordered">
                         <tr>
                             <th>Field</th>
@@ -315,7 +315,7 @@
                             <td>Temperature in code</td>
                         </tr>
                     </table>
-                    <h2>astro Element</h2>
+                    <h2 class="correct">astro Element</h2>
                     <table class="table table-bordered">
                         <tr>
                             <th>Field</th>
@@ -343,7 +343,7 @@
                             <td>Moonset time</td>
                         </tr>
                     </table>
-                    <h2>hour Element</h2>
+                    <h2 class="correct">hour Element</h2>
                     <table class="table table-bordered">
                         <tr>
                             <th>Field</th>
