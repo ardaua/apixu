@@ -1500,4 +1500,8 @@ font-weight: 700;
     .interactive-content-block .row-text{
         border: none;
     }
+
+    .interactive-content-block .mob-vers6 {
+        height: 140px;
+    }
 }
