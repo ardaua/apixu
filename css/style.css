@@ -1312,18 +1312,192 @@ font-weight: 700;
 
 /*---------------------mobile-------------------*/
 
-@media (max-width: 767px) {
+@media (max-width: 991px){
 
-    .how-work-block .cont .correct
+    .how-work-block .cont .correct,
+    .pricing-block .cont .correct
     {
         margin: auto;
     }
-}
 
-@media (max-width: 991px){
+    .pricing-block .cont .correct {
+        margin-bottom: 50px;
+    }
 
-    .how-work-block .cont .correct
-    {
+    .what-apixu-block span,
+    .libraries-block {
+        width: 100%;
+    }
+
+    .btn-pricing,
+    .what-apixu-block .row {
+        margin-right: 0;
+    }
+
+    .what-apixu-block .row {
+        padding: 0;
+    }
+
+    .footer-main {
+        background: none;
+    }
+
+    .libraries-block .nav-element {
+        margin-bottom: 120px;
+    }
+
+    .what-apixu-block .row .mob-vers {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .what-apixu-block .row .mob-vers2 {
+        margin-left: 10px;
+    }
+    .what-apixu-block .row .mob-vers3 {
+        margin-left: 14px;
+    }
+    .what-apixu-block .row #img-indivad {
+        margin: 3px 0 0 3px;
+    }
+    .what-apixu-block .row #text-indivad {
+        margin: -50px 0 15px 83px;
+    }
+    .what-apixu-block .row #text-simple {
+        margin: -65px 0 0 97px;
+    }
+
+    .api-content-block .get-start-api {
+        width: 290px;
+        font-size: 18px;
+        height: 38px;
+        margin-top: 50px;
+    }
+
+    .api-content-block .tit-text2 {
+        width: 100%;
+    }
+
+    .api-content-block .title,
+    .api-content-block .mob-want,
+    .pricing-content-block h1,
+    .pricing-content-block .tab-content h2,
+    .pricing-content-block .tab-content span.text,
+    .pricing-content-block h3,
+    .pricing-content-block .plan-details span,
+    #high-pricing,
+    .interactive-content-block h1,
+    .interactive-content-block span {
+        text-align: center;
+    }
+
+    .pricing-content-block .ps-text span {
+        text-align: left;
+    }
+
+    .api-content-block .mob-want button {
+        float: none;
+    }
+
+    .api-content-block .row .block-marg-top {
+        margin-top: 0;
+    }
+
+    .api-content-block img {
+        margin: 29px 50% 38px 45% !important;
+        width: 100px !important;
+    }
+
+    .header-autor .login-content-block,
+    .header-autor .sigin-content-block {
+        width: 100%;
+        margin: 25px 0 0;
+    }
+
+    .nav-tabs > li a {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .pricing-content-block .pricing-block .correct {
         margin: auto;
+        margin-bottom: 25% !important;
+        margin-top: 4% !important;
+    }
+
+    .pricing-content-block .plan-details {
+        background-color: rgba(248, 248, 248, 0);
+    }
+
+    .plan-details .free,
+    .plan-details .silver,
+    .plan-details .gold,
+    .plan-details .platinum {
+        padding: 3px;
+        font-size: 23px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .plan-details .free {
+        width: 75px;
+    }
+
+    .plan-details .silver {
+        width: 80px;
+    }
+
+    .plan-details .gold{
+        width: 75px;
+    }
+
+    .plan-details .platinum{
+        width: 97px;
+    }
+
+    .pricing-content-block .mob-vers4 {
+        margin-bottom: 20px;
+    }
+
+    .pricing-content-block .cost-pad {
+        margin-bottom: 60px;
+    }
+
+    .interactive-content-block span {
+        display: block;
+    }
+
+    .interactive-content-block .form-control {
+        width: 100%;
+    }
+
+    .interactive-content-block .nav-tabs > li #mob-cur {
+        padding: 0 115px;
+    }
+
+    .interactive-content-block .nav-tabs > li #mob-for {
+        padding: 0 110px;
+    }
+
+    .interactive-content-block .nav-tabs > li #mob-sear {
+        padding: 0 100px;
+    }
+
+    .interactive-content-block .row-title{
+        margin-bottom: 30px;
+    }
+
+    .interactive-content-block .mob-vers5 {
+        min-height: 160px;
+    }
+
+    .interactive-content-block .row-text .form-tabs .table-forecast {
+        width: 50%;
+        float: right;
+        margin-top: -16px;
+    }
+
+    .interactive-content-block .row-text{
+        border: none;
     }
 }

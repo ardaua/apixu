@@ -161,31 +161,42 @@
         </form>
 
         <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#current">Current Weather</a></li>
-            <li><a data-toggle="tab" href="#forecast">Forecast Weather</a></li>
-            <li><a data-toggle="tab" href="#search">Search/Autocomplete</a></li>
+            <li class="active"><a data-toggle="tab" id="mob-cur" href="#current">Current Weather</a></li>
+            <li><a data-toggle="tab" id="mob-for" href="#forecast">Forecast Weather</a></li>
+            <li><a data-toggle="tab" id="mob-sear"  href="#search">Search/Autocomplete</a></li>
         </ul>
 
         <div class="tab-content">
             <div id="current" class="tab-pane fade in active">
                 <div class="row">
                     <div class="col-md-12 row-title">
-                        <div class="col-md-1">Parameter</div>
-                        <div class="col-md-2">Value</div>
-                        <div class="col-md-1">Type</div>
-                        <div class="col-md-1">Location</div>
-                        <div class="col-md-7">Description</div>
+                        <div class="col-md-1 col-xs-6 col-sm-4">Parameter</div>
+                        <div class="col-md-2 col-xs-6 col-sm-8">Value</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Type</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Location</div>
+                        <div class="col-md-7 hidden-sm hidden-xs">Description</div>
                     </div>
                     <div class="col-md-12 row-text">
-                        <div class="col-md-1">Parameter</div>
-                        <div class="col-md-2">
+                        <div class="col-md-1 col-xs-6 col-sm-4">Parameter</div>
+                        <div class="col-md-2 col-xs-6 col-sm-8">
                             <form class="form-tabs" action="#" role="form">
                                 <input class="form-control" type="text"/>
                             </form>
                         </div>
-                        <div class="col-md-1">String</div>
-                        <div class="col-md-1">Query</div>
-                        <div class="col-md-7">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
+                        <div class="col-md-1 hidden-sm hidden-xs">String</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Query</div>
+                        <div class="col-md-7 hidden-sm hidden-xs">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
+                            (decimal degree) or city name</div>
+                    </div>
+                    <div class="col-md-12 row-title hidden-lg hidden-md">
+                        <div class="col-md-1  col-xs-3 col-sm-3 hidden-lg hidden-md">Type</div>
+                        <div class="col-md-1 col-xs-3 col-sm-3 hidden-lg hidden-md">Location</div>
+                        <div class="col-md-7 col-xs-6 col-sm-6 hidden-lg hidden-md">Description</div>
+                    </div>
+                    <div class="col-md-12 row-text hidden-lg hidden-md mob-vers5">
+                        <div class="col-md-1 col-xs-3 col-sm-3 hidden-lg hidden-md">String</div>
+                        <div class="col-md-1 col-xs-3 col-sm-3 hidden-lg hidden-md">Query</div>
+                        <div class="col-md-7 col-xs-6 col-sm-6 hidden-lg hidden-md">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
                             (decimal degree) or city name</div>
                     </div>
                 </div>
@@ -194,27 +205,27 @@
             <div id="forecast" class="tab-pane fade">
                 <div class="row">
                     <div class="col-md-12 row-title">
-                        <div class="col-md-1">Parameter</div>
-                        <div class="col-md-2">Value</div>
-                        <div class="col-md-1">Type</div>
-                        <div class="col-md-1">Location</div>
-                        <div class="col-md-7">Description</div>
+                        <div class="col-md-1 col-xs-6 col-sm-4">Parameter</div>
+                        <div class="col-md-2 col-xs-6 col-sm-8">Value</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Type</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Location</div>
+                        <div class="col-md-7 hidden-sm hidden-xs">Description</div>
                     </div>
                     <div class="col-md-12 row-text row-text-two">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">
                             <form class="form-tabs" action="#" role="form">
-                                <input class="form-control" type="text"/>
+                                <input class="form-control table-forecast" type="text"/>
                             </form>
                         </div>
-                        <div class="col-md-1">String</div>
-                        <div class="col-md-1">Query</div>
-                        <div class="col-md-7">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
+                        <div class="col-md-1 hidden-sm hidden-xs">String</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Query</div>
+                        <div class="col-md-7 hidden-sm hidden-xs">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
                             (decimal degree) or city name</div>
                     </div>
                     <div class="col-md-12 row-text">
-                        <div class="col-md-1">Days</div>
-                        <div class="col-md-2">
+                        <div class="col-md-1 col-xs-6 col-sm-4">Days</div>
+                        <div class="col-md-2 col-xs-6 col-sm-8">
                             <form class="form-tabs" action="#" role="form">
                                 <select class="form-control select-number" id="value">
                                     <option>1</option>
@@ -232,6 +243,23 @@
                                 </select>
                             </form>
                         </div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Integer</div>
+                        <div class="col-md-1 hidden-sm hidden-xs">Query</div>
+                        <div class="col-md-7 hidden-sm hidden-xs">Number of days of weather forecast. Value ranges from 1 to 10</div>
+                    </div>
+
+                    <div class="col-md-12 row-title">
+                        <div class="col-md-1">Type</div>
+                        <div class="col-md-1">Location</div>
+                        <div class="col-md-7">Description</div>
+                    </div>
+                    <div class="col-md-12 row-text row-text-two">
+                        <div class="col-md-1">String</div>
+                        <div class="col-md-1">Query</div>
+                        <div class="col-md-7">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
+                            (decimal degree) or city name</div>
+                    </div>
+                    <div class="col-md-12 row-text">
                         <div class="col-md-1">Integer</div>
                         <div class="col-md-1">Query</div>
                         <div class="col-md-7">Number of days of weather forecast. Value ranges from 1 to 10</div>
