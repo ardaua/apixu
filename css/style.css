@@ -338,9 +338,9 @@ h1, h2 {
 }
 
 .how-work-block h3 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 .how-work-block h4 {
@@ -390,11 +390,12 @@ h1, h2 {
 }
 
 .pricing-block {
-    padding: 3% 0 5%;
+    padding: 0.5% 0 6%;
 }
 
 .pricing-block h1 {
-    margin-bottom: 6%;
+    margin-bottom: 8%;
+    font-size: 48px;
 }
 
 .block-coast {
@@ -672,9 +673,60 @@ footer > .row {
 }
 
 .api-content-block .get-start-api {
-    width: 300px;
-    font-size: 20px;
-    height: 40px;
+    width: 368px;
+    font-size: 23px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.api-content-block .row .col-md-6 {
+    padding: 0 80px 0 15px;
+}
+
+.api-content-block #icon9 {
+    margin: 29px 20px 0 -16px;
+    width: 60px;
+}
+
+.api-content-block #icon8 {
+    margin: 27px 19px 0 -2px;
+    width: 61px;
+}
+
+.api-content-block #icon7 {
+    width: 62px;
+    margin: 28px 20px 0 -3px;
+}
+
+.api-content-block #icon6 {
+    width: 61px;
+    margin: 28px 22px 0 -2px;
+}
+
+.api-content-block #icon5 {
+    margin: 29px 19px 0 -2px;
+    width: 62px;
+}
+
+.api-content-block #icon4 {
+    width: 62px;
+    margin: 28px 20px 0 -3px;
+}
+
+.api-content-block #icon3 {
+    width: 60px;
+    margin: 28px 19px 0 -2px;
+}
+
+.api-content-block #icon2 {
+    width: 60px;
+    margin: 27px 22px 0 -6px;
+}
+
+.api-content-block #icon1 {
+    width: 61px;
+    margin: 29px 18px 0 13px;
 }
 
 .pricing-content-block .ps-text {
@@ -804,7 +856,8 @@ hr {
     border-bottom-right-radius: 7px;
     border: 1px solid RGBA(51, 51, 51, 0.71);
     border-left: 1px solid RGBA(34, 34, 34, 0.41);
-    padding: 3px 0 3px 10px;
+    padding: 5px 0 5px 20px;
+    font-size: 20px;
 }
 
 .sbar-menu ul a {
@@ -829,7 +882,7 @@ li.active,
 }
 
 .docs-content-block {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .docs-content-block h1 {
@@ -1053,3 +1106,163 @@ li.active,
     width: 36%;
 }
 
+.header-api #gradient {
+    margin-bottom: 3.3%;
+}
+
+.api-content-block h1 {
+    font-size: 38px;
+}
+
+.api-content-block .tit-text {
+    font-size: 23px;
+    display: block;
+    margin: 43px 0 18px;
+}
+
+.api-content-block .tit-text2 {
+    margin-bottom: 13px;
+    font-size: 17px;
+    width: 80%;
+    display: block;
+}
+
+.api-content-block .row span {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.api-content-block .row .font-text {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.api-content-block .row .list {
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 36px;
+}
+
+.api-content-block .row .list-marg {
+    margin: 13px 0 0 50px;
+}
+
+.api-content-block .row .hr2 {
+    margin-top: 13px;
+    /*margin-bottom: 7px;*/
+}
+
+.api-content-block .row .hr1 {
+    margin-top: 35px;
+    margin-bottom: 7px;
+}
+
+.api-content-block .row .hr3 {
+    margin-top: 29px;
+    margin-bottom: 8px;
+}
+
+.api-content-block .row .hr4 {
+    margin-top: 54px;
+    margin-bottom: 8px;
+}
+
+.api-content-block .row .hr6 {
+    margin-bottom: 25px;
+}
+
+.api-content-block .row .hr7 {
+    margin-top: 27px;
+}
+
+.api-content-block .row .hr8 {
+    margin-top: 52px;
+    margin-bottom: 0;
+}
+
+.api-content-block .row .hr9 {
+    margin-top: 31px;
+}
+
+.api-content-block .row h3 {
+font-weight: 700;
+}
+
+.api-content-block .row span a,
+.docs-content-block .row p a {
+    color: #0089FF;
+    text-decoration: underline;
+}
+
+.docs-content-block .row p a:hover {
+    color: #00549e;
+}
+
+.api-content-block .row .block-marg-top {
+    margin-top: -40px;
+}
+
+.api-content-block .row span p {
+    font-size: 18px;
+    line-height: 28px;
+    display: block;
+    padding-right: 95px;
+}
+
+.api-content-block .row span i{
+    font-size: 21px;
+}
+
+.api-content-block .row .btn-get {
+     width: 189px;
+     font-size: 22px;
+     height: 48px;
+     border-radius: 8px;
+     margin-top: 10px;
+ }
+
+.api-content-block .row .btn-let-get {
+    width: 394px;
+    font-size: 22px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: -4px;
+}
+
+.api-content-block .row .h3-marg {
+    margin-top: 8px;
+}
+
+.doc #gradient {
+    margin-bottom: 2.7%;
+}
+
+.docs-content-block .row .col-md-3 {
+    width: 21%;
+}
+
+.docs-content-block .row .col-md-9 {
+    padding-left: 112px;
+}
+
+.docs-content-block .row h1 {
+    font-size: 43px;
+    margin-top: -6px;
+}
+
+.docs-content-block .row p {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.docs-content-block .row .tit-list {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.docs-content-block .row .doc-list {
+    line-height: 36px;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 22px;
+}
