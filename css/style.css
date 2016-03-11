@@ -40,6 +40,7 @@ h4 {
     min-height: 775px;
     background: url("../images/fon.jpg") no-repeat;
     background-size: cover;
+    z-index: 100;
 }
 
 .weather-bar > .navigation {
@@ -80,18 +81,14 @@ h4 {
     padding-bottom: 1%;
 }
 
-/*.libraries-block > .navigation {*/
-/*line-height: 25px;*/
-/*}*/
-
 .libraries-block .nav-element {
     line-height: 25px;
-    margin-bottom: 6%;
+    margin-bottom: 41px;
 }
 
 .libraries-block .nav-element p {
     text-align: left;
-    padding-left: 20px;
+    padding: 3px 0 0 35px;
 }
 
 .navigation > .nav-element.city-block .city {
@@ -217,7 +214,7 @@ h4 {
 }
 
 .img-logo {
-    max-width: 22%;
+    max-width: 24%;
 }
 
 .text-logo {
@@ -226,7 +223,7 @@ h4 {
 }
 
 .head-info {
-    margin-top: 15%;
+    margin-top: 16%;
 }
 
 h1, h2 {
@@ -234,12 +231,13 @@ h1, h2 {
 }
 
 .head-info > h1 {
-    margin-bottom: 2%;
+    margin-bottom: 46px;
 }
 
 .head-info > h2 {
     font-weight: 100;
-    margin-bottom: 4%;
+    margin-bottom: 4.7%;
+    font-size: 30px;
 }
 
 .but-head {
@@ -263,12 +261,12 @@ h1, h2 {
 .what-apixu-block {
     max-width: 100%;
     height: auto;
-    padding: 5% 0;
+    padding: 2.2% 0 3%;
 }
 
 .what-apixu-block h1 {
     font-size: 47px;
-    margin-bottom: 6%;
+    margin-bottom: 5.5%;
 }
 
 .what-apixu-block h2 {
@@ -278,29 +276,65 @@ h1, h2 {
 .what-apixu-block .row {
     text-align: initial;
     font-size: 30px;
+    padding: 6% 17%;
 }
 
-.what-apixu-block .row {
-    padding: 6% 13%;
+.what-apixu-block .row #img-free {
+    margin: -9px 0 0 17px;
+}
+
+.what-apixu-block .row #img-scalab {
+    margin: -11px 0 0 7px;
+}
+
+.what-apixu-block .row #img-fast {
+    margin: -17px 0 0 17px;
+}
+
+.what-apixu-block .row #img-indivad {
+    margin: 3px 0 0 6px;
+}
+
+.what-apixu-block .row #img-simple {
+    margin: -76px 0 0 17px;
+}
+
+.what-apixu-block .row #text-free {
+    margin: -49px 0 0 95px;
+}
+
+.what-apixu-block .row #text-scalab {
+    margin: -50px 0 0 84px;
+}
+
+.what-apixu-block .row #text-fast {
+    margin: -56px 0 0 96px;
+}
+
+.what-apixu-block .row #text-indivad {
+    margin: 13px 0 0 -14px;
+}
+
+.what-apixu-block .row #text-simple {
+    margin: -80px 0 0 97px;
 }
 
 .what-apixu-block span {
-    width: 75%;
+    width: 65%;
     display: block;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 31px;
     line-height: 48px;
 }
 
 .how-work-block {
-    /*height: auto;*/
-    /*background-size: 100% auto;*/
     background: url("../images/fon2.jpg") no-repeat center center fixed;
-    padding: 3% 0 0;
+    padding: 54px 0 0;
 }
 
 .how-work-block h1 {
-    margin-bottom: 6%;
+    margin-bottom: 7%;
+    font-size: 49px;
 }
 
 .how-work-block h3 {
@@ -384,7 +418,7 @@ h1, h2 {
 .plan-details .silver,
 .plan-details .gold,
 .plan-details .platinum {
-    width: 100px;
+    width: 115px;
     padding: 4px;
     font-size: 26px;
     color: white;
@@ -456,10 +490,9 @@ h1, h2 {
 }
 
 .libraries-block {
-    /*width: 744px;*/
     width: 60%;
     margin: auto;
-    padding: 3% 0 5%;
+    padding: 3% 0 4%;
 }
 
 .libraries-block h1 {
@@ -507,6 +540,42 @@ h1, h2 {
 
 #lang-pyth {
     font-size: 23px;
+}
+
+.libraries-block .nav-element #sharp {
+    margin-left: 24px;
+}
+
+.libraries-block .nav-element #perl {
+    margin: -5px 0 0 31px;
+}
+
+.libraries-block .nav-element #php {
+    margin: 19px 0 0 17px;
+}
+
+.libraries-block .nav-element #node {
+    margin: -4px 0 0 29px;
+}
+
+.libraries-block .nav-element #java {
+    margin: -18px 0 0 33px;
+}
+
+.libraries-block .nav-element #ruby {
+    margin: -1px 0 0 33px;
+}
+
+.libraries-block .nav-element #android {
+    margin: -10px 0 0 23px;
+}
+
+.libraries-block .nav-element #pyton {
+    margin: -10px 0 0 32px;
+}
+
+#libraries-marg-row4 {
+    margin-top: 12px;
 }
 
 #grad {
@@ -609,9 +678,11 @@ footer > .row {
 }
 
 .pricing-content-block .ps-text {
+    margin-top: 8px;
     width: 100%;
     background-color: rgb(123, 182, 231);
-    padding: 1%;
+    padding: 0 26px 3px;
+    color: white;
 }
 
 .pricing-content-block .ps-text > span {
@@ -803,9 +874,9 @@ li.active,
     border-right: none;
 }
 
-.nav {
-    margin-bottom: 45px;
-}
+/*.nav {*/
+    /*margin-bottom: 45px;*/
+/*}*/
 
 /*----------navigation tabs-----------*/
 
@@ -819,7 +890,8 @@ li.active,
     /*margin: 0px 5px;*/
 }
 
-.price #gradient {
+.price #gradient,
+.interactive #gradient {
     margin-bottom: 2.4%;
 }
 
@@ -873,17 +945,111 @@ li.active,
 }
 
 .pricing-content-block .plan-details {
-    margin-top: 50px;
+    margin-top: 34px;
+    padding: 16px 0 0;
+    margin-left: 0;
+    background-color: rgb(248, 248, 248);
 }
 
 .pricing-content-block .plan-details span {
     font-size: 26px;
     display: block;
-    padding: 8px 15px;
+    padding: 8px 0;
 }
 
-.pricing-content-block .plan-details {
-    /*font-size: 26px;*/
-    /*display: block;*/
-    /*padding: 8px 15px;*/
+.pricing-content-block .plan-details .cost div > div {
+    font-size: 23px;
+    padding-top: 17px;
 }
+
+.pricing-content-block .plan-details .cost-pad div > div {
+    padding-top: 5px;
+}
+
+.pricing-content-block .plan-details #month {
+    padding: 14px 0;
+}
+
+.pricing-content-block .plan-details #call-month {
+    padding: 2px 0;
+}
+
+.price-foot {
+    margin-top: 58px;
+}
+
+#high-pricing {
+    font-size: 21px;
+    margin: 65px 0 48px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #0099FF;
+}
+
+.interactive-content-block h1 {
+    font-size: 42px;
+    margin-top: 38px;
+    margin-bottom: 44px;
+}
+
+.interactive-content-block span {
+    font-size: 25px;
+    line-height: 46px;
+}
+
+.interactive-content-block form {
+    margin: 32px 0 47px;
+    font-size: 23px;
+}
+
+.interactive-content-block .form-control  {
+    margin: 11px 0 25px;
+    width: 59.5%;
+    height: 46px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid #7EA6D9;
+    padding: 5px 22px 0;
+}
+
+.interactive-content-block .row-title {
+     font-size: 17px;
+     margin: 46px 0 8px;
+    color: #474747;
+ }
+
+.interactive-content-block .row-text {
+    border-top: 1px solid #E5E5E5;
+    background-color: rgb(246, 246, 246);
+    padding: 20px 0 35px;
+    margin: 0 0 45px 10px;
+    width: 98%;
+}
+
+.interactive-content-block .row-text-two {
+    margin: 0 0 0 10px;
+    padding: 20px 0 30px;
+}
+
+.interactive-content-block .row-text form {
+    padding: 0;
+    margin: -6px 0 0;
+}
+
+.interactive-content-block .row-text .form-tabs .form-control  {
+    margin: 0;
+    width: 86%;
+    padding: 0 7px;
+    height: 28px;
+    border: 2px solid #D1D1D1;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.interactive-content-block .form-tabs .form-control.select-number {
+    width: 36%;
+}
+

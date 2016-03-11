@@ -20,7 +20,7 @@
     <title>Interactive page</title>
 </head>
 <body>
-<header>
+<header class="interactive">
 
     <nav id="bt-menu" class="bt-menu visible-xs visible-sm upletter">
         <a href="#" class="bt-menu-trigger"><span>Меню</span></a>
@@ -141,7 +141,7 @@
 
 <div class="interactive-content-block">
     <div class="cont">
-        <h1>Interactive API Explorer</h1>
+        <h1 class="upletter">Interactive API Explorer</h1>
         <span>Apixu interactive API explorer or IO Docs allows you to test our APIs and methods. It returns response
         headers, response code and response body.</span>
 
@@ -169,17 +169,17 @@
         <div class="tab-content">
             <div id="current" class="tab-pane fade in active">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-title">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">Value</div>
                         <div class="col-md-1">Type</div>
                         <div class="col-md-1">Location</div>
                         <div class="col-md-7">Description</div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-text">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">
-                            <form action="#" role="form">
+                            <form class="form-tabs" action="#" role="form">
                                 <input class="form-control" type="text"/>
                             </form>
                         </div>
@@ -193,17 +193,17 @@
 
             <div id="forecast" class="tab-pane fade">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-title">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">Value</div>
                         <div class="col-md-1">Type</div>
                         <div class="col-md-1">Location</div>
                         <div class="col-md-7">Description</div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-text row-text-two">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">
-                            <form action="#" role="form">
+                            <form class="form-tabs" action="#" role="form">
                                 <input class="form-control" type="text"/>
                             </form>
                         </div>
@@ -212,11 +212,11 @@
                         <div class="col-md-7">Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude
                             (decimal degree) or city name</div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-text">
                         <div class="col-md-1">Days</div>
                         <div class="col-md-2">
-                            <form action="#" role="form">
-                                <select class="form-control" id="value">
+                            <form class="form-tabs" action="#" role="form">
+                                <select class="form-control select-number" id="value">
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -228,7 +228,7 @@
                                     <option>9</option>
                                     <option>10</option>
                                     <option>11</option>
-                                    <option>12</option>
+                                    <option selected>12</option>
                                 </select>
                             </form>
                         </div>
@@ -240,17 +240,17 @@
             </div>
             <div id="search" class="tab-pane fade">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-title">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">Value</div>
                         <div class="col-md-1">Type</div>
                         <div class="col-md-1">Location</div>
                         <div class="col-md-7">Description</div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 row-text">
                         <div class="col-md-1">Parameter</div>
                         <div class="col-md-2">
-                            <form action="#" role="form">
+                            <form class="form-tabs" action="#" role="form">
                                 <input class="form-control" type="text"/>
                             </form>
                         </div>
