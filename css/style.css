@@ -1387,8 +1387,29 @@ font-weight: 700;
     .pricing-content-block .plan-details span,
     #high-pricing,
     .interactive-content-block h1,
-    .interactive-content-block span {
+    .interactive-content-block span,
+    .docs-content-block .row h1,
+    .docs-content-block .row .mob-vers6,
+    .docs-content-block .row .doc2 p,
+    .docs-content-block .row .doc3 p,
+    .docs-content-block .row #key-tit,
+    .docs-content-block .row #key-text,
+    .docs-content-block .row .doc-tit-text,
+    .docs-content-block .row .doc4 .mob-vers8,
+    .docs-content-block .row .doc5 p,
+    .docs-content-block .row .doc6 p,
+    .docs-content-block .row .doc7 p,
+    .docs-content-block .row .doc8 p,
+    .docs-content-block .row .doc9 p,
+    .docs-content-block .row .doc10 p,
+    .docs-content-block .row .doc10 ol,
+    .docs-content-block .row .doc11 p,
+    .docs-content-block .row .doc12 p {
         text-align: center;
+    }
+
+    .docs-content-block .row #key-text {
+        display: block;
     }
 
     .pricing-content-block .ps-text span {
@@ -1483,7 +1504,7 @@ font-weight: 700;
         padding: 0 100px;
     }
 
-    .interactive-content-block .row-title{
+    .interactive-content-block .row-title, {
         margin-bottom: 30px;
     }
 
@@ -1503,5 +1524,40 @@ font-weight: 700;
 
     .interactive-content-block .mob-vers6 {
         height: 140px;
+    }
+
+    .docs-content-block .row .col-md-3 {
+        width: 70%;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    .sbar-menu ul li{
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+    .docs-content-block .row .col-md-9{
+        padding-left: 0;
+    }
+
+    .docs-content-block .row .mob-vers6 {
+        margin-top: 50px;
+    }
+    .docs-content-block .row .tit-list,
+    .docs-content-block .row .doc-list {
+        color: rgba(56, 54, 54, 0.48);
+    }
+
+    .docs-content-block .row .mob-vers7 {
+    text-align: left;
+    }
+
+    .docs-content-block .row .table th,
+    .docs-content-block .row .table td,
+    .docs-content-block .row .table td p,
+    .docs-content-block .row .table td ul {
+        font-size: 15px;
+        padding: 1% 0.4% 1%;
     }
 }
