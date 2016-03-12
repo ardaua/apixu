@@ -304,7 +304,8 @@ h1, h2 {
 }
 
 .what-apixu-block .row #text-indivad {
-    margin: 13px 0 0 -14px;
+    padding-left: 34px;
+    margin: 13px 0 0;
 }
 
 .what-apixu-block .row #text-simple {
@@ -1560,4 +1561,10 @@ font-weight: 700;
         font-size: 15px;
         padding: 1% 0.4% 1%;
     }
+
+    .api-content-block .row .btn-let-get{
+    width: 290px;
+    font-size: 18px;
+    height: 40px;
+}
 }
