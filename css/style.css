@@ -182,6 +182,11 @@ h4 {
     color: #555;
 }
 
+.header-main #grad .btn-default:hover {
+    background-color: rgba(255, 165, 0, 0.67);;
+    border: 1px solid rgba(255, 165, 0, 0.67);;
+}
+
 .menu-head a:hover {
     color: #000;
     border-top: 1px solid #000;
@@ -1570,3 +1575,4 @@ font-weight: 700;
     height: 40px;
 }
 }
+
