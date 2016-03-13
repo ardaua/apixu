@@ -872,9 +872,9 @@ hr {
 
 li.active,
 .sbar-menu li:hover,
+.sbar-menu ul a li:hover,
 .sbar-menu ul a:hover {
     background-color: orange;
-    border: none;
     text-decoration: none;
     color: #fff;
     cursor: pointer;
