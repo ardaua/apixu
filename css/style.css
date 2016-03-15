@@ -1322,72 +1322,82 @@ font-weight: 700;
     color: rgba(8, 8, 8, 0.89);
 }
 
-    /*---------------------desktop-------------------*/
+/*---------------------desktop-------------------*/
 
-    @media (max-width: 1199px) {
+@media (max-width: 1199px) {
 
-        .what-apixu-block .row #text-indivad {
-            padding-left: 58px;
-        }
-
-        .pricing-block .get-start {
-            width: 190px;
-        }
-
-        .pricing-block div.free, div.silver, div.gold {
-            width: 190px;
-        }
-
-        div.platinum {
-            width: 245px;
-        }
-
-        .desk-platinum-coast,
-        .desk-platinum-month,
-        .desk-platinum-call {
-            width: 130%;
-        }
-
-        .desk-platinum-month {
-            display: block;
-        }
-
-        .desk-platinum-hr {
-            margin-left: 20px;
-        }
-
-        .desk-platinum-coast2 {
-            width: 130%;
-            margin-left: 10px;
-        }
-
-        .pricing-block .get-start.pl {
-            margin-left: 30px;
-        }
-
-        .pricing-block .get-start.gl {
-            margin-left: 12px;
-        }
-
-        .desk-hr {
-            width: 830px;
-        }
-
-        .libraries-block {
-            width: 80%;
-        }
-
-        .libraries-block .nav-element #lang-perl,
-        #lang-php,
-        #lang-java,
-        #lang-pyth,
-        #lang-andr,
-        #lang-sharp,
-        #lang-node,
-        #lang-ruby    {
-            width: 200px;
-        }
+    .what-apixu-block .row #text-indivad {
+        padding-left: 58px;
     }
+
+    .pricing-block .get-start {
+        width: 190px;
+    }
+
+    .pricing-block div.free, div.silver, div.gold {
+        width: 190px;
+    }
+
+    div.platinum {
+        width: 245px;
+    }
+
+    .desk-platinum-coast,
+    .desk-platinum-month,
+    .desk-platinum-call {
+        width: 130%;
+    }
+
+    .desk-platinum-month {
+        display: block;
+    }
+
+    .desk-platinum-hr {
+        margin-left: 20px;
+    }
+
+    .desk-platinum-coast2 {
+        width: 130%;
+        margin-left: 10px;
+    }
+
+    .pricing-block .get-start.pl {
+        margin-left: 30px;
+    }
+
+    .pricing-block .get-start.gl {
+        margin-left: 12px;
+    }
+
+    .desk-hr {
+        width: 830px;
+    }
+
+    .libraries-block {
+        width: 80%;
+    }
+
+    .libraries-block .nav-element #lang-perl,
+    #lang-php,
+    #lang-java,
+    #lang-pyth,
+    #lang-andr,
+    #lang-sharp,
+    #lang-node,
+    #lang-ruby    {
+        width: 200px;
+    }
+
+    .docs-content-block .row .col-md-9 {
+        padding-left: 50px;
+        width: 60%;
+    }
+
+    .docs-content-block .row .col-md-3 {
+        width: 32%;
+    }
+
+}
 
 /*---------------------mobile-------------------*/
 
@@ -1605,7 +1615,7 @@ font-weight: 700;
         height: 140px;
     }
 
-    .docs-content-block .row .col-md-3 {
+    .docs-content-block .row .mob-center3 {
         width: 70%;
         margin: auto;
         padding-bottom: 60px;
@@ -1616,9 +1626,9 @@ font-weight: 700;
         font-size: 18px;
     }
 
-    .docs-content-block .row .col-md-9{
+    .docs-content-block .row .mob-center9 {
         padding-left: 0;
-
+        width: 100%;
     }
 
     .docs-content-block .row .mob-vers6 {
