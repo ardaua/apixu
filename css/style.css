@@ -1223,7 +1223,7 @@ font-weight: 700;
  }
 
 .api-content-block .row .btn-let-get {
-    width: 394px;
+    width: 345px;
     font-size: 22px;
     height: 48px;
     border-radius: 8px;
@@ -1397,6 +1397,9 @@ font-weight: 700;
         width: 32%;
     }
 
+    .api-content-block .row .hr8 {
+        padding-top: 50px;
+    }
 }
 
 /*---------------------mobile-------------------*/
@@ -1685,7 +1688,7 @@ font-weight: 700;
     }
 
     .desk-platinum-hr {
-        margin-left: 165px;
+        margin-left: auto;
     }
 
     .desk-platinum-coast2 {
@@ -1696,6 +1699,11 @@ font-weight: 700;
     .header-main .head-info .but-head {
         margin-bottom: 10px;
     }
+
+    .api-content-block .row .hr8 {
+        padding-top: 0;
+    }
+
 }
 
 
