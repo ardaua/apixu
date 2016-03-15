@@ -1682,6 +1682,10 @@ font-weight: 700;
         width: 100%;
         margin-left: 0;
     }
+
+    .header-main .head-info .but-head {
+        margin-bottom: 10px;
+    }
 }
 
 
