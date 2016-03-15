@@ -1316,7 +1316,79 @@ font-weight: 700;
 .docs-content-block .row ol {
     padding-left: 16px;
 }
-/*}*/
+
+.libraries-block a,
+.libraries-block a:hover {
+    color: rgba(8, 8, 8, 0.89);
+}
+
+    /*---------------------desktop-------------------*/
+
+    @media (max-width: 1199px) {
+
+        .what-apixu-block .row #text-indivad {
+            padding-left: 58px;
+        }
+
+        .pricing-block .get-start {
+            width: 190px;
+        }
+
+        .pricing-block div.free, div.silver, div.gold {
+            width: 190px;
+        }
+
+        div.platinum {
+            width: 245px;
+        }
+
+        .desk-platinum-coast,
+        .desk-platinum-month,
+        .desk-platinum-call {
+            width: 130%;
+        }
+
+        .desk-platinum-month {
+            display: block;
+        }
+
+        .desk-platinum-hr {
+            margin-left: 20px;
+        }
+
+        .desk-platinum-coast2 {
+            width: 130%;
+            margin-left: 10px;
+        }
+
+        .pricing-block .get-start.pl {
+            margin-left: 30px;
+        }
+
+        .pricing-block .get-start.gl {
+            margin-left: 12px;
+        }
+
+        .desk-hr {
+            width: 830px;
+        }
+
+        .libraries-block {
+            width: 80%;
+        }
+
+        .libraries-block .nav-element #lang-perl,
+        #lang-php,
+        #lang-java,
+        #lang-pyth,
+        #lang-andr,
+        #lang-sharp,
+        #lang-node,
+        #lang-ruby    {
+            width: 200px;
+        }
+    }
+
 /*---------------------mobile-------------------*/
 
 @media (max-width: 991px){
@@ -1564,7 +1636,7 @@ font-weight: 700;
     .docs-content-block .row .table th,
     .docs-content-block .row .table td,
     .docs-content-block .row .table td p,
-    .docs-content-block .row .table td ul {
+    .docs-content-block .row .table td ul  {
         font-size: 15px;
         padding: 1% 0.4% 1%;
     }
@@ -1574,5 +1646,42 @@ font-weight: 700;
     font-size: 18px;
     height: 40px;
 }
+
+    .what-apixu-block .row {
+        margin-left: 60px;
+    }
+
+    .what-apixu-block .row #text-indivad {
+        margin: -50px 0 15px 42px;
+    }
+
+    .marg-correct {
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+
+    .libraries-block .nav-element{
+        margin-left: 70px;
+    }
+
+    .desk-platinum-coast,
+    .desk-platinum-month,
+    .desk-platinum-call {
+        width: 100%;
+    }
+
+    .desk-platinum-month {
+        display: block;
+    }
+
+    .desk-platinum-hr {
+        margin-left: 165px;
+    }
+
+    .desk-platinum-coast2 {
+        width: 100%;
+        margin-left: 0;
+    }
 }
+
 
