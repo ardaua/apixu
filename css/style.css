@@ -1323,9 +1323,14 @@ font-weight: 700;
     color: rgba(8, 8, 8, 0.89);
 }
 
+
 /*---------------------desktop-------------------*/
 
 @media (max-width: 1199px) {
+
+    .hr-long {
+        width: 105%;
+    }
 
     .what-apixu-block .row #text-indivad {
         padding-left: 58px;
