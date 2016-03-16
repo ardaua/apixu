@@ -1094,7 +1094,7 @@ li.active,
 .interactive-content-block .row-text .form-tabs .form-control  {
     margin: 0;
     width: 86%;
-    padding: 0 7px;
+    padding: 0 2px;
     height: 28px;
     border: 2px solid #D1D1D1;
     border-radius: 10px;
@@ -1411,6 +1411,11 @@ font-weight: 700;
     .api-content-block .row .btn{
         padding: 6px 10px;
     }
+
+    .interactive-content-block .desk-vers {
+        margin-left: -17px;
+        margin-right: 16px;
+    }
 }
 
 /*---------------------mobile-------------------*/
@@ -1596,15 +1601,15 @@ font-weight: 700;
     }
 
     .interactive-content-block .nav-tabs > li #mob-cur {
-        padding: 0 115px;
+        padding: 0 100px 0 90px;
     }
 
     .interactive-content-block .nav-tabs > li #mob-for {
-        padding: 0 110px;
+        padding: 0 95px 0 85px;
     }
 
     .interactive-content-block .nav-tabs > li #mob-sear {
-        padding: 0 100px;
+        padding: 0 80px 0 70px;
     }
 
     .interactive-content-block .row-title, {
@@ -1731,6 +1736,10 @@ font-weight: 700;
 
     .pricing-content-block .plan-details .pad-correct-bl {
         padding-left: 9%;
+    }
+
+    .interactive-content-block .row-title {
+        margin: 46px 0 5%;
     }
 
 }
