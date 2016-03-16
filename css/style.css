@@ -1729,6 +1729,10 @@ font-weight: 700;
         margin-left: -25px;
     }
 
+    .pricing-content-block .plan-details .pad-correct-bl {
+        padding-left: 9%;
+    }
+
 }
 
 
