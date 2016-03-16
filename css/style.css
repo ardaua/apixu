@@ -669,6 +669,7 @@ header > .row,
 footer > .row {
     width: 100%;
     margin: 0;
+    text-align: center;
 }
 
 .api-content-block .get-start-api {
@@ -1400,6 +1401,16 @@ font-weight: 700;
     .api-content-block .row .hr8 {
         padding-top: 50px;
     }
+
+    .api-content-block .row .btn-let-get
+    {
+        font-size: 21px;
+        width: 327px;
+    }
+
+    .api-content-block .row .btn{
+        padding: 6px 10px;
+    }
 }
 
 /*---------------------mobile-------------------*/
@@ -1702,6 +1713,20 @@ font-weight: 700;
 
     .api-content-block .row .hr8 {
         padding-top: 0;
+    }
+
+    .pricing-content-block .plan-details .cost div > div {
+        font-size: 20px;
+    }
+
+    .pricing-content-block .plan-details {
+        margin-left: -25px;
+    }
+
+    .pricing-content-block .plan-details .cost-pad div > div,
+    .pricing-content-block .mob-vers4 div > div,
+    .plan-details .free, .plan-details .silver, .plan-details .gold, .plan-details .platinum {
+        margin-left: -25px;
     }
 
 }
